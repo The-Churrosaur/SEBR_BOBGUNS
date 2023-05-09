@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealWepPlayFlamethrowerShot</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <Volume>0.65</Volume>
+      <MaxDistance>30</MaxDistance>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>      
+	  <PreventSynchronization>3</PreventSynchronization>
+      <RealisticFilter>realShipFilter</RealisticFilter>
+      <RealisticVolumeChange>0.45</RealisticVolumeChange>
+      <Waves>
+        <Wave Type="D3">
+		  <Start>Audio\ARC\WEP\Flamethrower1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+		  <Start>Audio\ARC\WEP\Flamethrower2.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+		  <Start>Audio\ARC\WEP\Flamethrower3.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+		  <Start>Audio\ARC\WEP\Flamethrower4.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealAssaultRifleNoAmmo</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <Volume>0.35</Volume>
+      <MaxDistance>5</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\Trigger_WeaponEmpty.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+  </Sounds>
+</Definitions>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>BetterBrrt</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>1200</MaxDistance>
+    
+	  <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="1200" Sound="" />
+	</DistantSounds>
+      <Volume>3</Volume>
+      <SoundLimit>8</SoundLimit>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\DeadAir.xwm</Start>
+          
+        </Wave>
+      </Waves>
+    </Sound>
+	<Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>BrrtDist</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>6000</MaxDistance>
+      <Volume>1</Volume>
+      <Loopable>true</Loopable>
+	 
+     <Waves>
+        <Wave Type="D3">
+         
+          <Loop>Audio\HDBrrtMid.xwm</Loop>
+          <End>Audio\HDBrrtEnd.xwm</End>
+        </Wave>
+      </Waves>
+    </Sound>
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>BetterBrrtSecondary</SubtypeId>
+      </Id>
+      
+      <MaxDistance>1100</MaxDistance>
+      <Loopable>true</Loopable>
+	  <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="1200" Sound="BetterBrrtSecondaryDist" />
+	</DistantSounds>
+      <Volume>2</Volume>
+    <PreventSynchronization>0</PreventSynchronization>
+    <SoundLimit>4</SoundLimit>
+    <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+    <DynamicMusicAmount>3</DynamicMusicAmount>
+      
+      <Waves>
+        <Wave Type="D3">
+		<Start>Audio\HDBrrtBigStart.xwm</Start>
+      <!--     <Loop>Audio\HDBrrtBigMid.xwm</Loop> -->
+          <End>Audio\HDBrrtEnd.xwm</End>
+        </Wave>
+      </Waves>
+    </Sound>
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>BetterBrrtSecondaryDist</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>6000</MaxDistance>
+      <Loopable>true</Loopable>
+	  <PreventSynchronization>5</PreventSynchronization>
+      <Volume>2</Volume>
+	  <SoundLimit>1</SoundLimit>
+      
+      <Waves>
+        <Wave Type="D3">
+		<Start>Audio\HDBrrtBigStart.xwm</Start>
+    <!-- <Loop>Audio\HDBrrtBigMid.xwm</Loop> -->
+		  <End>Audio\HDBrrtEnd.xwm</End>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+		
+  </Sounds>
+</Definitions>
+

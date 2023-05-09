@@ -1,0 +1,408 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+  <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>BrowningShot</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>3000</MaxDistance>
+	  <DistantSounds>
+        <DistantSound DistanceCrossfade="50" Distance="500" Sound="AutoCannonFire" />
+      </DistantSounds>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1</Volume>
+	  <VolumeVariation>0</VolumeVariation>
+      <PitchVariation>100</PitchVariation>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\AutoCannonFire.wav</Start> <!--<Start>Audio\ARC\WEP\BrowningShot.xwm<  Audio\bob\bob30.wav/Start>--> Audio\AutoCannonFire.wav
+        </Wave>
+      </Waves>
+	</Sound>
+	
+	<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AutoCannonFire</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>3000</MaxDistance>
+    <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+    <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>50</Volume>
+	  <VolumeVariation>0</VolumeVariation>
+      <PitchVariation>100</PitchVariation>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bob\bob30.wav</Start>
+        </Wave>
+      </Waves>
+	</Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>gaufire</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>3000</MaxDistance>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>50</Volume>
+      <VolumeVariation>0</VolumeVariation>
+      <PitchVariation>100</PitchVariation>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bob\AH64_nosegun.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>OKI76mmshot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>2000</MaxDistance>
+      <Volume>0.5</Volume>
+      <Loopable>false</Loopable>
+      <PitchVariation>100</PitchVariation>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="200" Sound="bapenl" />
+      </DistantSounds>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bob\T72_Fire.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>smallimpact</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>150</MaxDistance>
+      <Volume>3.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bob\bob30.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>bapenl</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>1500</MaxDistance>
+      <Volume>100</Volume>
+      <PitchVariation>100</PitchVariation>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bob\shrapnel.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcBrowningShotDist</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>1000</MaxDistance>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1.0</Volume>
+	  <VolumeVariation>0</VolumeVariation>
+      <PitchVariation>100</PitchVariation>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP_DIST\BrowningShot.xwm</Start>
+        </Wave>
+      </Waves>
+	</Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>WepShip88Shot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>3000</MaxDistance>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+	  <Loopable>false</Loopable>
+      <Volume>5</Volume>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="100" Sound="IncomingArtilleryDist" />
+      </DistantSounds>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\battlecannon_small_d2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\battlecannon_small_d3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+  
+  <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>WepShipLargeRailgunShotLZM</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>750.207764</MaxDistance>
+      <Volume>0.8</Volume>
+      <Loopable>false</Loopable>
+	  <Waves>
+        <Wave Type="D3">
+          <Start>Audio\railgun_fire_3d.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+	  <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>WepShipLargeRailgunDryLZM</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>104.207764</MaxDistance>
+      <Volume>0.380835</Volume>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\WepMissileWarning.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>Fake</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>0</MaxDistance>
+      <Volume>0.0001</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI14mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>OKI23mmshot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>500</MaxDistance>
+      <Volume>0.25</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI14mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+<Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>OKI50mmshot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>700</MaxDistance>
+      <Volume>0.65</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI50mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+<Sound> 
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>OKI230mmshot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>800</MaxDistance>
+	  <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="800" Sound="IncomingArtilleryDist" />
+      </DistantSounds>
+      <Volume>6.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI230mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>IncomingArtilleryDist</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>2500</MaxDistance>
+      <Volume>0.5</Volume>
+	  <VolumeVariation>0</VolumeVariation>
+  <DistantSounds>
+    <DistantSound DistanceCrossfade="10" Distance="400" Sound="distantboom" />
+  </DistantSounds>
+      <PitchVariation>100</PitchVariation>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\IncomingArtillery.xwm</Start>
+        </Wave>
+      </Waves>
+	</Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>distantboom</SubtypeId>
+      </Id>
+
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>5000</MaxDistance>
+      <Volume>10000</Volume>
+      <VolumeVariation>0</VolumeVariation>
+      <PitchVariation>100</PitchVariation>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bob\distantboom.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+<Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>OKI380mmshot</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>6.00</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\OKI380mm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+<Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>BetterMinigun</SubtypeId>
+      </Id>
+      
+      <MaxDistance>2400</MaxDistance>
+      <Loopable>true</Loopable>
+	  <DistantSounds>
+        <DistantSound DistanceCrossfade="100" Distance="1000" Sound="BetterMinigundist" />
+	</DistantSounds>
+      <Volume>.6</Volume>
+	   <PreventSynchronization>0</PreventSynchronization>
+	  <SoundLimit>3</SoundLimit>
+  <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+  <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Waves>
+        <Wave Type="D3">
+		<Start>Audio\MinigunSpoolUpBig.xwm</Start>
+        <End>Audio\MinigunSpoolDown.xwm</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>BetterMinigundist</SubtypeId>
+      </Id>
+
+      <MaxDistance>2400</MaxDistance>
+      <Loopable>true</Loopable>
+      <Volume>10</Volume>
+      <PreventSynchronization>0</PreventSynchronization>
+      <SoundLimit>3</SoundLimit>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>2</DynamicMusicAmount>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bob\distantaa.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>CustomHit</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>400</MaxDistance>
+	  
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>1.0</Volume>
+	  <VolumeVariation>0</VolumeVariation>
+      <PitchVariation>100</PitchVariation>
+	  <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\BulletSnap.wav</Start>
+        </Wave>
+      </Waves>
+	</Sound>
+    
+      <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>VulcanMini</SubtypeId>
+      </Id>
+      <Category>WEP_TURR</Category>
+      <MaxDistance>250</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>15</DynamicMusicAmount>
+      <DistantSounds>
+        <DistantSound distanceCrossfade="5" distance="150" sound="ArcWepTurretMissileShotDistB" />
+      </DistantSounds>
+      <Volume>0.5</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Minigun_fire.xwm</Start>
+          <End>Audio\Minigun_end.xwm</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  </Sounds>
+</Definitions>

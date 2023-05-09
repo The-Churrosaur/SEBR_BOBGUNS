@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>300mmCannon</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>200</MaxDistance>
+      <Volume>6</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\Cannon_Small_d2.xwm</Start>
+        </Wave>
+	<Wave Type="D3">
+          <Start>Audio\Cannon_Small_d3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>AudioDefinition</TypeId>
+        <SubtypeId>900mmCannon</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>300</MaxDistance>
+      <Volume>6</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\Cannon_Large_d2.xwm</Start>
+        </Wave>
+	<Wave Type="D3">
+          <Start>Audio\Cannon_Large_d3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Vulcan</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>2</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\Minigun_d2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Minigun_d3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+
+
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>40mmBofors</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>3</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\40mmBofors_d2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\40mmBofors_d3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Aden</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>100</MaxDistance>
+      <Volume>2</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\Aden_d2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Aden_d3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>LittleDavid</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>500</MaxDistance>
+      <Volume>6</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\Little_David_d2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Little_David_d3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>BigBertha</SubtypeId>
+      </Id>
+      <Category>WEP_SHIP</Category>
+      <MaxDistance>1000</MaxDistance>
+      <Volume>8</Volume>
+      <Loopable>false</Loopable>
+      <Waves>
+        <Wave Type="D2">
+          <Start>Audio\Big_Bertha_d2.xwm</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\Big_Bertha_d3.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+
+
+  </Sounds>
+</Definitions>

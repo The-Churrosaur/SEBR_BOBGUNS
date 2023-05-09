@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcWepPlayPistolShot</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <!--<Volume>0</Volume>-->
+      <Volume>0.35</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="60" Distance="340" Sound="ArcWepRifleDistA" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>      
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\BasicPistol1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\BasicPistol2.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+		
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcWepPlayAssaultRifleShot</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <!--<Volume>0</Volume>-->
+      <Volume>0.45</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="ArcWepRifleDistA" />
+      </DistantSounds>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>      
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\HeavyAssaultRifle1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\HeavyAssaultRifle2.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\HeavyAssaultRifle3.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\HeavyAssaultRifle4.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcWepPlayAutomaticCarbineShot</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <!--<Volume>0</Volume>-->
+      <Volume>0.35</Volume>
+      <MaxDistance>300</MaxDistance>
+      <DistantSounds>
+        <DistantSound DistanceCrossfade="10" Distance="140" Sound="ArcWepRifleDistA" />
+      </DistantSounds>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>      
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\SMG1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\SMG2.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+			
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcAssaultRifleNoAmmo</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>25</MaxDistance>
+      <Volume>0.60</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\WEP\Trigger_WeaponEmpty.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+  </Sounds>
+</Definitions>

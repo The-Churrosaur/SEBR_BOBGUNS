@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealWepPlayPistolShot</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <!--<Volume>0</Volume>-->
+      <Volume>0.35</Volume>
+      <MaxDistance>30</MaxDistance>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>      
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\BasicPistol1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\BasicPistol2.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+		
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealWepPlayAssaultRifleShot</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <!--<Volume>0</Volume>-->
+      <Volume>0.35</Volume>
+      <MaxDistance>30</MaxDistance>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>      
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\AssaultRifle1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\AssaultRifle2.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\AssaultRifle3.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\AssaultRifle4.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealWepPlayAutomaticCarbineShot</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <!--<Volume>0</Volume>-->
+      <Volume>0.35</Volume>
+      <MaxDistance>30</MaxDistance>
+      <DynamicMusicCategory>LightFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>      
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\SMG1.wav</Start>
+        </Wave>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\SMG2.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealAssaultRifleNoAmmo</SubtypeId>
+      </Id>
+      <Category>SHOT_R</Category>
+      <Volume>0.35</Volume>
+      <MaxDistance>5</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\WEP\Trigger_WeaponEmpty.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+	
+  </Sounds>
+</Definitions>
